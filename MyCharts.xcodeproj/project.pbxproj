@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57684EA0146704A40031FFC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57684E9F146704A40031FFC7 /* UIKit.framework */; };
+		57684EA2146704A40031FFC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57684EA1146704A40031FFC7 /* Foundation.framework */; };
+		57684EA4146704A40031FFC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57684EA3146704A40031FFC7 /* CoreGraphics.framework */; };
+		57684EAA146704A40031FFC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57684EA8146704A40031FFC7 /* InfoPlist.strings */; };
+		57684EAC146704A40031FFC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57684EAB146704A40031FFC7 /* main.m */; };
+		57684EB0146704A40031FFC7 /* VJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57684EAF146704A40031FFC7 /* VJAppDelegate.m */; };
+		57684EB3146704A40031FFC7 /* VJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57684EB2146704A40031FFC7 /* VJViewController.m */; };
+		57684EB6146704A40031FFC7 /* VJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57684EB4146704A40031FFC7 /* VJViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57684E9B146704A40031FFC7 /* MyCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57684E9F146704A40031FFC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57684EA1146704A40031FFC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57684EA3146704A40031FFC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57684EA7146704A40031FFC7 /* MyCharts-Info.plist */ = {isa = PBXFileReference; path = "MyCharts-Info.plist"; sourceTree = "<group>"; };
+		57684EA9146704A40031FFC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57684EAB146704A40031FFC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57684EAD146704A40031FFC7 /* MyCharts-Prefix.pch */ = {isa = PBXFileReference; path = "MyCharts-Prefix.pch"; sourceTree = "<group>"; };
+		57684EAE146704A40031FFC7 /* VJAppDelegate.h */ = {isa = PBXFileReference; path = VJAppDelegate.h; sourceTree = "<group>"; };
+		57684EAF146704A40031FFC7 /* VJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VJAppDelegate.m; sourceTree = "<group>"; };
+		57684EB1146704A40031FFC7 /* VJViewController.h */ = {isa = PBXFileReference; path = VJViewController.h; sourceTree = "<group>"; };
+		57684EB2146704A40031FFC7 /* VJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VJViewController.m; sourceTree = "<group>"; };
+		57684EB5146704A40031FFC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VJViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57684E98146704A30031FFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57684EA0146704A40031FFC7 /* UIKit.framework in Frameworks */,
+				57684EA2146704A40031FFC7 /* Foundation.framework in Frameworks */,
+				57684EA4146704A40031FFC7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57684E90146704A20031FFC7 = {
+			isa = PBXGroup;
+			children = (
+				57684EA5146704A40031FFC7 /* MyCharts */,
+				57684E9E146704A40031FFC7 /* Frameworks */,
+				57684E9C146704A40031FFC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57684E9C146704A40031FFC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57684E9B146704A40031FFC7 /* MyCharts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57684E9E146704A40031FFC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57684E9F146704A40031FFC7 /* UIKit.framework */,
+				57684EA1146704A40031FFC7 /* Foundation.framework */,
+				57684EA3146704A40031FFC7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57684EA5146704A40031FFC7 /* MyCharts */ = {
+			isa = PBXGroup;
+			children = (
+				57684EAE146704A40031FFC7 /* VJAppDelegate.h */,
+				57684EAF146704A40031FFC7 /* VJAppDelegate.m */,
+				57684EB1146704A40031FFC7 /* VJViewController.h */,
+				57684EB2146704A40031FFC7 /* VJViewController.m */,
+				57684EB4146704A40031FFC7 /* VJViewController.xib */,
+				57684EA6146704A40031FFC7 /* Supporting Files */,
+			);
+			path = MyCharts;
+			sourceTree = "<group>";
+		};
+		57684EA6146704A40031FFC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57684EA7146704A40031FFC7 /* MyCharts-Info.plist */,
+				57684EA8146704A40031FFC7 /* InfoPlist.strings */,
+				57684EAB146704A40031FFC7 /* main.m */,
+				57684EAD146704A40031FFC7 /* MyCharts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57684E9A146704A30031FFC7 /* MyCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57684EB9146704A40031FFC7 /* Build configuration list for PBXNativeTarget "MyCharts" */;
+			buildPhases = (
+				57684E97146704A30031FFC7 /* Sources */,
+				57684E98146704A30031FFC7 /* Frameworks */,
+				57684E99146704A30031FFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCharts;
+			productName = MyCharts;
+			productReference = 57684E9B146704A40031FFC7 /* MyCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57684E92146704A30031FFC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 57684E95146704A30031FFC7 /* Build configuration list for PBXProject "MyCharts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57684E90146704A20031FFC7;
+			productRefGroup = 57684E9C146704A40031FFC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57684E9A146704A30031FFC7 /* MyCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57684E99146704A30031FFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57684EAA146704A40031FFC7 /* InfoPlist.strings in Resources */,
+				57684EB6146704A40031FFC7 /* VJViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57684E97146704A30031FFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57684EAC146704A40031FFC7 /* main.m in Sources */,
+				57684EB0146704A40031FFC7 /* VJAppDelegate.m in Sources */,
+				57684EB3146704A40031FFC7 /* VJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57684EA8146704A40031FFC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57684EA9146704A40031FFC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57684EB4146704A40031FFC7 /* VJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57684EB5146704A40031FFC7 /* en */,
+			);
+			name = VJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57684EB7146704A40031FFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		57684EB8146704A40031FFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57684EBA146704A40031FFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCharts/MyCharts-Prefix.pch";
+				INFOPLIST_FILE = "MyCharts/MyCharts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57684EBB146704A40031FFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCharts/MyCharts-Prefix.pch";
+				INFOPLIST_FILE = "MyCharts/MyCharts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57684E95146704A30031FFC7 /* Build configuration list for PBXProject "MyCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57684EB7146704A40031FFC7 /* Debug */,
+				57684EB8146704A40031FFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57684EB9146704A40031FFC7 /* Build configuration list for PBXNativeTarget "MyCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57684EBA146704A40031FFC7 /* Debug */,
+				57684EBB146704A40031FFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57684E92146704A30031FFC7 /* Project object */;
+}
