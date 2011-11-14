@@ -1,3 +1,8 @@
+---
+title: Core Plot Tutorial
+layout: default
+---
+
 # Core Plot Tutorial
 
 This tutorial will show you how to get started using Core Plot in your projects. I will explain how to use it on an iOS project, but if you want to use it on a Mac application, it will be useful as well, as Core Plot has abstracted the differences between the platforms, so what you learn for one platform will be useful also for the other one.
