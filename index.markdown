@@ -15,7 +15,7 @@ When we go to the Core Plot home page at http://code.google.com/p/core-plot/, we
 
 To begin, let’s create a Single View based iPad app project. I chose an iPad app because it has a bigger screen and allows me to better show what I’m telling. Feel free to follow along on an iPhone project – as long as you change the dimensions appropriately.
 
-![Figure 1: Creating a Single View project](http://cl.ly/122P1l170N0Q1e0Y0x02/Image%202011.11.06%2018:57:48.png)
+![Figure 1: Creating a Single View project](images/00_new_project_options.png)
 
 ## Adding the libraries
 
