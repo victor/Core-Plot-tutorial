@@ -61,7 +61,7 @@ p {
 	font: 12px 'Menlo','Bitstream Vera Sans Mono','Courier',monospace !important;
 	margin: 1em 0;
 	background-color: #EEE;
-	/* border: 1px solid #DDD;*/
+	border: 1px solid #DDD;
 	padding: 5px;
 	overflow: auto;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.07) 0 1px 2px inset;
@@ -74,10 +74,10 @@ p {
 }
 code {
 	font: 12px 'Menlo','Bitstream Vera Sans Mono','Courier',monospace !important;
-	background-color: ghostWhite;
+	/*background-color: ghostWhite;*/
 	color: #444;
 	padding: 0 .2em;
-	border: 1px solid #DEDEDE;
+	/* border: 1px solid #DEDEDE; */
 }
 a, a code {
 	color: #4183C4;
